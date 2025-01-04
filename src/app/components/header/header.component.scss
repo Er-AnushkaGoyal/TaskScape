@@ -1,0 +1,34 @@
+header{
+    align-items: center;
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        span{
+            cursor: pointer;
+            &:hover{
+                color: aquamarine;
+            }
+        }
+
+        ul{
+            list-style: none;
+
+            li{
+                cursor: pointer;
+                &:hover{
+                    color: aquamarine;
+                }
+            }
+        }
+    }
+}

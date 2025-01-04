@@ -1,0 +1,12 @@
+.todos{
+    &_item{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        
+    }
+}
+
+ul{
+    list-style: none;
+}
